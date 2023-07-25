@@ -1,0 +1,92 @@
+.footer__airbnb {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #11111a1a;
+    .container__Footer {
+        max-width: 1364px;
+        margin: 0 auto;
+
+        .box__footer__fixed {
+
+            display: flex;
+            justify-content: space-between;
+            padding: 0.7rem 0px;
+            align-items: center;
+            flex-direction: row;
+            .box__group__footer {
+                display: flex;
+
+                .button__detail__footer {
+
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+
+                    .upout__antd {
+                        font-weight: bold;
+                    }
+                }
+
+                .button__detail__footer:hover {
+                    text-decoration: underline;
+                }
+
+                .box__vietSub {
+                    text-decoration: underline;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+
+                    .global__footer {
+                        padding-right: 5px;
+                    }
+
+                }
+
+                .denominations__footer,
+                .box__vietSub,
+                .button__detail__footer {
+                    padding: 0px 0px 0px 15px;
+                }
+
+            }
+
+
+        }
+    }
+}
+
+.ant-drawer-content {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.title__footer {
+    color: #000;
+    font-weight: bold;
+}
+
+.content__title__footer {
+    li {
+        padding: 9px 0px;
+
+        a {
+            font-size: 14px;
+
+        }
+
+        a:hover {
+            color: #FF385C;
+        }
+    }
+}
+
+.ant-drawer-body {
+    padding: 0px 80px !important;
+}
+
+.ant-drawer-header {
+    border-bottom: none !important;
+}

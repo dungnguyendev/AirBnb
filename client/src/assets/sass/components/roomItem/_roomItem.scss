@@ -1,0 +1,35 @@
+.listItem__rented__room {
+    h3 {
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .posision__item__rented {
+        position: relative;
+        height: 300px;
+
+        .posision__image__item__rented {
+            position: absolute;
+
+        }
+
+        .posision__icon__item__rented {
+            position: absolute;
+            right: 0;
+
+            .icon__heart {
+                transition: .5s;
+                margin-right: 20px;
+                margin-top: 10px;
+                font-size: 25px;
+                padding: 3px;
+                border-radius: 7px;
+                color: #fff;
+                background-color: rgba(27, 25, 25, 0.5);
+            }
+            .icon__heart:hover{
+                transform: scale(1.2)
+            }
+        }
+    }
+}

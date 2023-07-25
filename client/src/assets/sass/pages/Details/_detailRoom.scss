@@ -1,0 +1,234 @@
+.detail__room {
+    h1 {
+        font-size: 22px;
+        font-weight: bold;
+        padding: 10px 0px;
+    }
+
+    .feeback__location {
+        display: flex;
+        align-items: center;
+
+        span {
+            font-size: 17px;
+            font-weight: 500;
+            display: flex;
+            padding-right: 10px;
+
+            .icon__start {
+                display: flex;
+                align-items: center;
+            }
+
+        }
+    }
+
+    .image__detail__room {
+        padding: 20px 0px;
+
+        overflow: hidden;
+
+        img {
+            object-fit: cover;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+    }
+
+    .content__detail__room {
+
+        display: grid;
+        grid-template-columns: 60% 33%;
+        grid-gap: 7%;
+
+        .content__detail__left {
+            height: 900px;
+
+            .box__content__title__left {
+                display: flex;
+                justify-content: space-between;
+                border-bottom: 1px solid grey;
+                padding: 20px 0px;
+
+                .box__content__title__1 {
+                    h3 {
+                        font-size: 18px;
+                        font-weight: 500;
+                    }
+
+                }
+
+                .box__content__title__2 {
+                    .icon__home {
+                        background-color: #FF385C;
+                        color: #fff;
+                        padding: 10px;
+                        border-radius: 50%;
+                        font-size: 19px;
+                    }
+                }
+            }
+
+            .box__benefit__title__left {
+                margin-bottom: 20px;
+                padding-bottom: 20px;
+                border-bottom: 1px solid grey;
+
+                .box__benefit__title__left__1 {
+                    display: flex;
+                    align-items: center;
+                    padding: 20px 0px;
+
+                    .box__benefit__content {
+                        display: flex;
+                        flex-direction: column;
+                    }
+
+                    svg {
+                        margin-right: 20px;
+                        height: 30px;
+                        width: 30px;
+                    }
+                }
+            }
+
+            h3 {
+                font-size: 18px;
+                font-weight: 500;
+            }
+
+            .tools__in__the__room {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-gap: 0;
+                padding-top: 20px;
+
+                .tools__room {
+                    display: flex;
+                    padding: 15px 0px;
+                    .icon__tools__room {
+                        padding-right: 20px;
+                    }
+                    .text__tools__room {
+                        display: flex;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+        .content__detail__right {
+            height: 90%;
+            border-radius: 20px;
+            box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+            position: sticky;
+            top: 70px;
+
+            .box__buynow__room {
+                padding: 30px;
+                height: auto;
+
+                .box__buynow__title {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                }
+
+                .date__book__room {
+                    margin: 20px 0px 0px 0px;
+                    padding: 20px 10px;
+                    border: 1px solid #787878;
+                    border-bottom: 0px;
+                    border-radius: 10px 10px 0px 0px;
+
+                    .date__book__room__1 {
+                        width: 100%;
+                        font-size: 17px;
+                    }
+                    .ant-picker-range{
+                        width: 100% ;
+                    }
+                }
+
+                .box__guets {
+                    margin: 0px 0px 20px 0px;
+                    padding: 10px;
+                    display: flex;
+                    justify-content: space-between;
+                    border: 1px solid #787878;
+                    border-radius: 0px 0px 10px 10px;
+
+                    .box__guets__1 {
+                        font-size: 17px;
+                    }
+                }
+
+                .box__count__people {
+                    .box__count__people__1 {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin: 16px 0px;
+
+                        div {
+                            button {
+                                border: 1px solid #787878;
+                                width: 45px;
+                                height: 45px;
+                                border-radius: 50%;
+                                opacity: .8;
+                            }
+                        }
+                    }
+                }
+
+                .price__one__night {
+                    .price__one__night__1 {
+                        padding: 20px 0px;
+                        display: flex;
+                        border-bottom: 1px solid #787878;
+                        justify-content: space-between;
+
+                        span {
+                            font-size: 17px;
+                        }
+                    }
+                }
+
+                .btn__buy__now__room {
+                    width: 100%;
+                    background: #FF385C;
+                    color: #fff;
+                    padding: 10px;
+                    margin-top: 15px;
+                    border-radius: 10px;
+                    font-size: 18px;
+                    font-weight: 500;
+                    transition: .5s;
+                }
+
+                .btn__buy__now__room:hover {
+                    opacity: .8;
+                    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+                }
+            }
+
+
+        }
+    }
+}
+
+button,
+[type='submit'] {
+    background-color: none !important;
+    background-image: none;
+}
+
+.ant-btn {
+    background: #FF385C;
+    transition: .5s;
+}
+
+.ant-btn:hover {
+    background: #FF385C !important;
+    opacity: .8;
+}

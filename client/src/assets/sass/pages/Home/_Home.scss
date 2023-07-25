@@ -1,0 +1,78 @@
+.section__box {
+    margin-top: 10px;
+
+    .box__title__section {
+        h2 {
+            font-size: 20px;
+        }
+
+    }
+
+    .box__image__section__sales {
+        .box__sales__section {
+            position: relative;
+            width: 100%;
+            height: 220px;
+            border-radius: 20px;
+            overflow: hidden;
+
+            .image__sales {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+
+                img {
+                    object-fit: cover;
+                    height: 100%;
+                    width: 100%;
+
+                }
+            }
+
+            .title__sales {
+                width: 50%;
+                position: absolute;
+                margin-top: 50px;
+                font-size: 14px;
+                margin-left: 20px;
+                color: #fff;
+
+                h3 {
+                    font-weight: 600;
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+}
+
+.location__tours__in__country {
+    margin-top: 20px;
+
+    .box__location__tour {
+        margin-bottom: 10px;
+
+        h2 {
+            font-size: 20px;
+        }
+
+    }
+
+    .card__tours {
+        .box__image__hiden {
+            border-radius: 8px;
+            overflow: hidden;
+
+            .img__tour__location {
+                transition: .5s;
+                height: 150px;
+                width: 100%;
+            }
+
+            .img__tour__location:hover {
+                opacity: .8;
+                transform: scale(1.2);
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+.book__room {
+    .title__bookRoom {
+        padding: 20px 0px;
+        border-bottom: 1px solid rgb(224, 222, 222);
+        h2 {
+            font-weight: 600;
+            font-size: 25px;
+        }
+    }
+    .box__list__1{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .content__notification {
+        padding: 20px 0px;
+        border-bottom: 1px solid rgb(224, 222, 222);
+        .content__notification__1 {
+            font-weight: 600;
+            font-size: 18px;
+        }
+        .content__notification__2 {
+            font-size: 15px;
+            opacity: 0.7;
+        }
+        .btn__seach__bookRoom {
+            font-weight: 600;
+            margin-top: 10px;
+            padding: 10px 30px;
+            border: 2px solid black;
+            border-radius: 14px;
+            transition: .5s;
+        }
+        .btn__seach__bookRoom:hover{
+            background-color: rgb(246, 246, 246);
+        }
+    }
+    .support__bookRoom {
+        padding: 20px 0px;
+        p {
+            .link__support {
+                text-decoration: underline;
+                font-weight: 600;
+            }
+        }
+    }
+}
